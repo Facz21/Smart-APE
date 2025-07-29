@@ -8,41 +8,8 @@
 4. Right-click on `pages/redirect.html`.
 5. Select "Open with Live Server".
 
-### Method 2: Python Simple Server
-```bash
-# Navigate to project directory
-cd path/to/smart-ape-project
 
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-
-# Open browser to http://localhost:8000/pages/redirect.html
-```
-
-### Method 3: Node.js http-server
-```bash
-# Install globally
-npm install -g http-server
-
-# Navigate to project directory
-cd path/to/smart-ape-project
-
-# Start server
-http-server -p 8000
-
-# Open browser to http://localhost:8000/pages/redirect.html
-```
-
-### Method 4: XAMPP/WAMP
-1. Install XAMPP or WAMP.
-2. Copy your project folder to `htdocs` (XAMPP) or `www` (WAMP).
-3. Start the Apache server.
-4. Go to `http://localhost/smart-ape/pages/redirect.html` in your browser.
-
-### Method 5: json-server (Port 3001)  
+### Method 2: json-server (Port 3001)  
 **Recommended for working with sample data!**
 1. Install json-server:
     ```bash
