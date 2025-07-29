@@ -1,7 +1,7 @@
 
 ## Detailed Setup
 
-### Method 1: Visual Studio Code with Live Server
+### STEP 1: Visual Studio Code with Live Server
 1. Install VS Code.
 2. Install the "Live Server" extension.
 3. Open the project folder in VS Code.
@@ -9,7 +9,7 @@
 5. Select "Open with Live Server".
 
 
-### Method 2: json-server (Port 3001)  
+### STEP 2: json-server (Port 3001)  
 **Recommended for working with sample data!**
 1. Install json-server:
     ```bash
